@@ -15,7 +15,7 @@
   - Data yang disimpan : folder music
   - Data yang diolah   : file-file mp3
 
-# 5. model class
+# 5. Model class
   * class ```AbstractMusicPlayer```:
       - Buat class abstract ```AbstractMusicPlayer``` yang mengimplementasikan interface ```MusicControl```.
       - Definisikan atribut-atribut yang diperlukan seperti Media, MediaPlayer, playlist, dsb.
@@ -42,7 +42,7 @@
 # 6. UML
 <img src="https://github.com/ZIDANIDROS/uas-PBO/blob/main/screenshoot/UML.JPG" alt="gambarUML" align="bottom">
 
-# 7. Buatkan skenario
+# 7. Skenario
 1. Memulai Aplikasi
 2. Pengguna membuka aplikasi pemutar musik.
 3. Layar awal aplikasi ditampilkan untuk mengontrol pemutaran musik.
