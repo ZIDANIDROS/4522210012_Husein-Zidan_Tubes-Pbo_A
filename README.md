@@ -1,5 +1,8 @@
 <h1><b>MUSIC PLAYER.mp3</b></h1>
 
+Daftar isi:
+1. <a src="https://github.com/ZIDANIDROS/4522210012-Husein-Zidan-UAS-PBO-?tab=readme-ov-file#1-Topik"></a>
+
 # 1. Topik
   pengembangan aplikasi pemutar musik sederhana menggunakan Java dan JavaFX. Kode ini memperlihatkan penggunaan dasar dari JavaFX untuk membuat antarmuka pengguna (UI) sederhana dan bagaimana mengimplementasikan logika dasar untuk memainkan, menjeda, menghentikan, serta mengontrol playlist lagu yang dimuat dari direktori pada sistem file.
 
