@@ -65,9 +65,6 @@ implemtasi saya :
                   - version, jadi harus merubah version pada file POM.xml
 
 # 10. Running
-
-
-# 11. Running
 <img src="https://github.com/ZIDANIDROS/uas-PBO/blob/main/screenshoot/gambaran%20app.JPG" alt="gambarApps" align="bottom">
 
-# 12. Printscreen hasil running code
+# 11. Printscreen hasil running code
