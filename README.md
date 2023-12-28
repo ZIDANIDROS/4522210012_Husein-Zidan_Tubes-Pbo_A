@@ -42,7 +42,7 @@
 # 7. Buatkan skenario
 1. Memulai Aplikasi
 2. Pengguna membuka aplikasi pemutar musik.
-3. Layar awal aplikasi ditampilkan dengan antarmuka pengguna untuk mengontrol pemutaran musik.
+3. Layar awal aplikasi ditampilkan untuk mengontrol pemutaran musik.
 4. Pengguna menekan tombol "Play" untuk memulai pemutaran musik.
 5. Jika tidak ada musik dalam daftar putar, pesan "No music found!" ditampilkan.
 6. Jika ada musik dalam daftar putar, lagu pertama dimulai secara otomatis.
@@ -50,19 +50,19 @@
 8. Pengguna dapat melihat judul lagu yang diputar pada label status.
 9. Pengguna dapat mengklik tombol "Pause" untuk menghentikan sementara pemutaran.
 10. Pengguna dapat mengklik tombol "Stop" untuk menghentikan pemutaran lagu.
-11. Pengguna dapat mengatur volume dengan menggeser kontrol slider.
-12. Navigasi Lagu
+11. Pengguna dapat melihat judul yang akan diputar setelah music yang sedang diputar pada label status.
+12. Navigasi Lagu.
 13. Pengguna dapat memilih lagu berikutnya dengan mengklik tombol "Next".
 14. Pengguna dapat memilih lagu sebelumnya dengan mengklik tombol "Previous".
-15. Mengakhiri Aplikasi
+15. Mengakhiri Aplikasi.
 16. Pengguna menutup aplikasi setelah selesai mendengarkan musik.
 
 # 9. Referensi
-- Bro code <link src="https://www.youtube.com/watch?v=-D2OIekCKes&t=830s">
+akun youtube 'Bro code' <link src="https://www.youtube.com/watch?v=-D2OIekCKes&t=830s">
 implemtasi saya :
-- IDE : IntellJIDE
-- dengan MAVEN
-- version, jadi harus merubah version pada file POM.xml
+                  - IDE : IntellJIDE
+                  - dengan MAVEN
+                  - version, jadi harus merubah version pada file POM.xml
 
 # 10. Running
 
