@@ -15,17 +15,17 @@
   - Data yang disimpan : folder music
   - Data yang diolah   : file-file mp3
 
-# 5. Buatkan model class
-  * class AbstractMusicPlayer:
-      - Buat class abstract AbstractMusicPlayer yang mengimplementasikan interface MusicControl.
+# 5. model class
+  * class ```AbstractMusicPlayer```:
+      - Buat class abstract ```AbstractMusicPlayer``` yang mengimplementasikan interface ```MusicControl```.
       - Definisikan atribut-atribut yang diperlukan seperti Media, MediaPlayer, playlist, dsb.
       - Implementasikan fungsi-fungsi dasar seperti playMusic, pauseMusic, stopMusic, nextMusic, previousMusic, setVolume.
       - Buat sebuah method abstract setStatusLabel yang akan diimplementasikan oleh class turunannya.
   
-  * Interface MusicControl:
+  * Interface ```MusicControl```:
       - Tentukan kontrak fungsi-fungsi dasar seperti playMusic, pauseMusic, stopMusic, nextMusic, previousMusic.
   
-  * class MusicPlayerController extends AbstractMusicPlayer:
+  * class ```MusicPlayerController``` extends ```AbstractMusicPlayer```:
       - Implementasikan method initialize untuk memuat musik dari direktori menggunakan DirectoryStream.
       - Implementasikan method loadMusicFromDirectory yang akan membaca file-file musik dari direktori yang ditentukan.
       - Buat method playMusic untuk memainkan musik yang terpilih dari playlist.
@@ -33,7 +33,7 @@
       - Implementasikan method setVolume untuk mengatur volume pemutaran musik.
       - Override method setStatusLabel yang akan menampilkan status pemutaran pada UI.
   
-  * class MusicPlayerApplication extends Application:
+  * class ```MusicPlayerApplication``` extends Application:
       - Override method start untuk menginisialisasi aplikasi JavaFX.
       - Muat antarmuka pengguna menggunakan FXML.
       - Tetapkan class MusicPlayerController sebagai controller untuk antarmuka pengguna.
@@ -63,6 +63,7 @@ implemtasi saya :
                   - IDE : IntellJIDE
                   - dengan MAVEN
                   - version, jadi harus merubah version pada file POM.xml
+<span style="color:blue">Fitur</span>
 
 # 10. Running
 <img src="https://github.com/ZIDANIDROS/uas-PBO/blob/main/screenshoot/gambaran%20app.JPG" alt="gambarApps" align="bottom">
