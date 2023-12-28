@@ -1,39 +1,73 @@
 <h1><b>MUSIC PLAYER.mp3</b></h1>
 
 # 1. Topik
-pengembangan aplikasi pemutar musik sederhana menggunakan Java dan JavaFX. Kode ini memperlihatkan penggunaan dasar dari JavaFX untuk membuat antarmuka pengguna (UI) sederhana dan bagaimana mengimplementasikan logika dasar untuk memainkan, menjeda, menghentikan, serta mengontrol playlist lagu yang dimuat dari direktori pada sistem file.
+  pengembangan aplikasi pemutar musik sederhana menggunakan Java dan JavaFX. Kode ini memperlihatkan penggunaan dasar dari JavaFX untuk membuat antarmuka pengguna (UI) sederhana dan bagaimana mengimplementasikan logika dasar untuk memainkan, menjeda, menghentikan, serta mengontrol playlist lagu yang dimuat dari direktori pada sistem file.
 
 # 2. Masalah
-- menghindari mp.3 app yang adsen atau iklan nya karena itu sangat mengganggu
-- menghindari virus dari app yang disediakan yang gratis, dikarenakan kalo kita download app gratis kemungkinan akan ada virus sehingga saya membuat app sendiri
+  - menghindari mp.3 app yang adsen atau iklan nya karena itu sangat mengganggu
+  - menghindari virus dari app yang disediakan yang gratis, dikarenakan kalo kita download app gratis kemungkinan akan ada virus sehingga saya membuat app sendiri
 
 # 3. Siapa yang Terlibat
-- user
-- data music
+  - user
+  - data music
 
 # 4. Data apa saja yang disimpan dan diolah
-- Data yang disimpan : folder music
-- Data yang diolah   : file-file mp3
+  - Data yang disimpan : folder music
+  - Data yang diolah   : file-file mp3
 
 # 5. Buatkan model class
-
-
-
-# 6. Buatkan turunan/relasi/abstraksi/interface!
+  * Kelas AbstractMusicPlayer:
+      - Buat kelas abstract AbstractMusicPlayer yang mengimplementasikan interface MusicControl.
+      - Definisikan atribut-atribut yang diperlukan seperti Media, MediaPlayer, playlist, dsb.
+      - Implementasikan fungsi-fungsi dasar seperti playMusic, pauseMusic, stopMusic, nextMusic, previousMusic, setVolume.
+      - Buat sebuah method abstract setStatusLabel yang akan diimplementasikan oleh kelas turunannya.
+  
+  * Interface MusicControl:
+      - Tentukan kontrak fungsi-fungsi dasar seperti playMusic, pauseMusic, stopMusic, nextMusic, previousMusic.
+  
+  * Kelas MusicPlayerController extends AbstractMusicPlayer:
+      - Implementasikan method initialize untuk memuat musik dari direktori menggunakan DirectoryStream.
+      - Implementasikan method loadMusicFromDirectory yang akan membaca file-file musik dari direktori yang ditentukan.
+      - Buat method playMusic untuk memainkan musik yang terpilih dari playlist.
+      - Buat method pauseMusic, stopMusic, nextMusic, previousMusic untuk mengontrol pemutaran musik.
+      - Implementasikan method setVolume untuk mengatur volume pemutaran musik.
+      - Override method setStatusLabel yang akan menampilkan status pemutaran pada UI.
+  
+  * Kelas MusicPlayerApplication extends Application:
+      - Override method start untuk menginisialisasi aplikasi JavaFX.
+      - Muat antarmuka pengguna menggunakan FXML.
+      - Tetapkan kelas MusicPlayerController sebagai controller untuk antarmuka pengguna.
+      - Tampilkan aplikasi dengan stage yang sesuai.
 
 # 7. Buatkan skenario
-
-# 8. Buatkan source code
+1. Memulai Aplikasi
+2. Pengguna membuka aplikasi pemutar musik.
+3. Layar awal aplikasi ditampilkan dengan antarmuka pengguna untuk mengontrol pemutaran musik.
+4. Pengguna menekan tombol "Play" untuk memulai pemutaran musik.
+5. Jika tidak ada musik dalam daftar putar, pesan "No music found!" ditampilkan.
+6. Jika ada musik dalam daftar putar, lagu pertama dimulai secara otomatis.
+7. Memainkan Musik
+8. Pengguna dapat melihat judul lagu yang diputar pada label status.
+9. Pengguna dapat mengklik tombol "Pause" untuk menghentikan sementara pemutaran.
+10. Pengguna dapat mengklik tombol "Stop" untuk menghentikan pemutaran lagu.
+11. Pengguna dapat mengatur volume dengan menggeser kontrol slider.
+12. Navigasi Lagu
+13. Pengguna dapat memilih lagu berikutnya dengan mengklik tombol "Next".
+14. Pengguna dapat memilih lagu sebelumnya dengan mengklik tombol "Previous".
+15. Mengakhiri Aplikasi
+16. Pengguna menutup aplikasi setelah selesai mendengarkan musik.
 
 # 9. Referensi
-- Bro code ()
+- Bro code <link src="https://www.youtube.com/watch?v=-D2OIekCKes&t=830s">
+implemtasi saya :
+- IDE : IntellJIDE
+- dengan MAVEN
+- version, jadi harus merubah version pada file POM.xml
 
-# 10. Running 
+# 10. Running
 
-# 11. Printscreen hasil running code
-- Code
-<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/desktop.JPG" alt="logo" align="TOP">
-- Mobile
-<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/mobile.JPG" alt="logo" align="bottom">
-- UI kit
-<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/uikit.JPG" alt="logo" align="bottom">
+
+# 11. Running
+<img src="https://github.com/ZIDANIDROS/uas-PBO/blob/main/screenshoot/gambaran%20app.JPG" alt="gambarApps" align="bottom">
+
+# 12. Printscreen hasil running code
