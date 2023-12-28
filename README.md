@@ -32,7 +32,7 @@ pengembangan aplikasi pemutar musik sederhana menggunakan Java dan JavaFX. Kode 
 
 # 11. Printscreen hasil running code
 - Code
-<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/desktop.JPG" alt="logo" align="bottom">
+<img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/desktop.JPG" alt="logo" align="TOP">
 - Mobile
 <img src="https://github.com/ZIDANIDROS/uas-dw/blob/main/screenshoot/mobile.JPG" alt="logo" align="bottom">
 - UI kit
