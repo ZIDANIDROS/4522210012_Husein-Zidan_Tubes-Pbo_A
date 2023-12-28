@@ -39,6 +39,9 @@
       - Tetapkan class MusicPlayerController sebagai controller untuk antarmuka pengguna.
       - Tampilkan aplikasi dengan stage yang sesuai.
 
+# 6. UML
+<img src="https://github.com/ZIDANIDROS/uas-PBO/blob/main/screenshoot/UML.JPG" alt="gambarUML" align="bottom">
+
 # 7. Buatkan skenario
 1. Memulai Aplikasi
 2. Pengguna membuka aplikasi pemutar musik.
@@ -63,9 +66,14 @@ implemtasi saya :
                   - IDE : IntellJIDE
                   - dengan MAVEN
                   - version, jadi harus merubah version pada file POM.xml
-<span style="color:blue">Fitur</span>
+Fitur :
+       - Play
+       - Pause
+       - Stop
+       - Next
+       - ada notif untuk nama music selanjutnya
+       - Previous
+       - Menampilkan Judul music
 
-# 10. Running
+# 10. Printscreen hasil running code
 <img src="https://github.com/ZIDANIDROS/uas-PBO/blob/main/screenshoot/gambaran%20app.JPG" alt="gambarApps" align="bottom">
-
-# 11. Printscreen hasil running code
